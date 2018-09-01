@@ -19,7 +19,7 @@ Just before getting caught in Russia, MI-6 agent John Stegwal sent a mail to MI-
 
 - Scanning the QR code leads us to an image having a troll  face. Though flag{ is written in the image but the flag is not there.(Its just a decoy).
 ![Troll](https://github.com/cb1711/CodefestCTF_2018/blob/master/Screenshot%20from%202018-09-02%2001-15-02.png)
-- One can look for the techniques present for steganography in jpeg images. After going through some of them one can get to JSteg.
+- One can look for the techniques for steganography in jpeg images. After going through some of them one can get to [JSteg](https://www.youtube.com/watch?v=TWEXCYQKyDc) (Link on how Jsteg works).
 - On looking for implementations for JSteg one can find [Jstego](https://sourceforge.net/projects/jstego/)
 - Running the jar file, selecting Seek option and then selecting the first image shows that there is another file hidden by the name flg.exe which has been extracted by the program
 ![Jstego](https://github.com/cb1711/CodefestCTF_2018/blob/master/Screenshot%20from%202018-09-02%2001-19-58.png)
@@ -32,4 +32,5 @@ Just before getting caught in Russia, MI-6 agent John Stegwal sent a mail to MI-
 
 ## Flag
 CodefestCTF{0b5cUr17y > 53cur17y}
+
 
